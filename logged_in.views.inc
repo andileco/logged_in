@@ -3,15 +3,8 @@
 /**
  * @file
  * Contains logged_in\logged_in.views.inc..
- * Provide a custom views field data that isn't tied to any other module. */
-
-use Drupal\Component\Utility\NestedArray;
-use Drupal\Core\Entity\EntityStorageInterface;
-use Drupal\Core\Entity\Sql\SqlContentEntityStorage;
-use Drupal\Core\Render\Markup;
-use Drupal\field\FieldConfigInterface;
-use Drupal\field\FieldStorageConfigInterface;
-use Drupal\system\ActionConfigEntityInterface;
+ * Provide a custom views field that checks if a user is logged in. 
+ */
 
 /**
  * Implements hook_views_data().
